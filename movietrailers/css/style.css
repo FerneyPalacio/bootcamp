@@ -6,7 +6,7 @@ alto de linea 1.6
 
 **************************************/
 
-* { 
+* {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
@@ -27,11 +27,10 @@ h2 {
 header,
 article {
 	background: whiteSmoke;
-	text-transform: lowercase;
 }
 
 header {
-	border-bottom: .12rem solid gray;
+	border-bottom: 0.0625rem solid #ddd;
 }
 
 header h2 {
@@ -51,7 +50,7 @@ article {
 	padding: 2rem;
 	margin-right: 3rem;
 	text-align: center;
-	border-radius: .5rem; 
+	border-radius: .5rem;
 }
 
 article h2 {
@@ -62,4 +61,3 @@ article h2 {
 div {
 	margin-top: 2.3rem;
 }
-
