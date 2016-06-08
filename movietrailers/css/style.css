@@ -45,16 +45,15 @@ section {
 }
 
 article {
-	background: whiteSmoke;
 	display: inline-block;
 	padding: 2rem;
 	margin-right: 3rem;
 	text-align: center;
+	border: 0.0625rem solid #ddd;
 	border-radius: .5rem;
 }
 
 article h2 {
-	text-transform: initial;
 	font-weight: bold;
 }
 
