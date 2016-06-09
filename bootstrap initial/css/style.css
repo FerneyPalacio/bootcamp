@@ -27,23 +27,23 @@ button {
   margin-top: 30px;
 }
 
-.container {
+.wrapper {
   background: white;
   width: 48.61111%;
   margin-top: 10px;
 }
 
-.row {
+.fila {
   padding: 10px 20px;
 }
 
-.btn-success {
+.btn-green {
   background-color: #5fcf80;
   border-color: #3ac162;
   padding: 10px;
 }
 
-.btn-primary {
+.btn-blue {
   background-color: #3f8abf;
   border-color: #326e99;
   padding: 10px;
