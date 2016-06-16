@@ -4,11 +4,18 @@ body {
   background: #eee;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+<<<<<<< HEAD
 	line-height: 1.6;
 }
 
 .home-wrapper {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/bg_2.jpg'), no-repeat, center, top;
+=======
+}
+
+.home-wrapper {
+  background: url('../images/bg_2.jpg') no-repeat, center, center, top;
+>>>>>>> 260fbc0767a7160990870e25ff7ffd7d162fed60
   background-size: cover;
   color: white;
 }
@@ -16,10 +23,18 @@ body {
 header {
   background-color: rgba(48, 48, 48, 0.5);
   position: fixed;
+<<<<<<< HEAD
 	padding: 10px 0;
 	width: 100%;
 }
 
+=======
+  padding: 10px 0;
+  width: 100%;
+}
+
+
+>>>>>>> 260fbc0767a7160990870e25ff7ffd7d162fed60
 header nav {
   float: right;
   margin: 10px;
@@ -27,7 +42,10 @@ header nav {
 
 header nav a {
   color: white;
+<<<<<<< HEAD
   /*font-weight: bold;*/
+=======
+>>>>>>> 260fbc0767a7160990870e25ff7ffd7d162fed60
   text-decoration: none;
   margin-left: 10px;
   padding: 10px 15px;
@@ -39,9 +57,14 @@ header nav a.active {
 }
 
 header .logo {
+<<<<<<< HEAD
   font-size: 27px;
   font-weight: normal;
   margin: 10px;
+=======
+  font-size: 22px;
+  width: 100%
+>>>>>>> 260fbc0767a7160990870e25ff7ffd7d162fed60
 }
 
 #home {
@@ -57,7 +80,11 @@ header .logo {
 }
 
 #home p {
+<<<<<<< HEAD
   font-size: 24px;
+=======
+  font-size: 20px;
+>>>>>>> 260fbc0767a7160990870e25ff7ffd7d162fed60
   margin-top: 40px;
 }
 
@@ -75,9 +102,15 @@ header .logo {
   height: 50px;
   line-height: 50px;
   width: 50px;
+<<<<<<< HEAD
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
 	transition:all .3s;
+=======
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+>>>>>>> 260fbc0767a7160990870e25ff7ffd7d162fed60
 }
 
 #home .social a:hover {
@@ -85,7 +118,11 @@ header .logo {
 }
 
 .container {
+<<<<<<< HEAD
   width: 80%;
+=======
+  width: 992px;
+>>>>>>> 260fbc0767a7160990870e25ff7ffd7d162fed60
   margin-left: auto;
   margin-right: auto;
 }
@@ -128,27 +165,54 @@ header .logo {
 }
 
 #contacto {
+<<<<<<< HEAD
   background: #303030;
   background-image: url('../images/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
+=======
+  background-color: #303030;
+  background-image: url('../images/map-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+
+  text-align: center;
+
+>>>>>>> 260fbc0767a7160990870e25ff7ffd7d162fed60
 }
 
 #contacto h2 {
   color: white;
+<<<<<<< HEAD
   font-size: 32px;
 }
 
+=======
+  text-align: center;
+  font-size: 32px;
+
+}
+
+
+>>>>>>> 260fbc0767a7160990870e25ff7ffd7d162fed60
 #contacto input {
   padding: 20px;
   width: 400px;
   border: 1px solid #ccc;
   border-radius: 3px;
+<<<<<<< HEAD
 }
 
 #contacto textarea {
   margin: 20px 0;
+=======
+
+}
+
+#contacto textarea {
+  margin: 20px;
+>>>>>>> 260fbc0767a7160990870e25ff7ffd7d162fed60
   padding: 20px;
   width: 400px;
 }
@@ -164,6 +228,7 @@ header .logo {
   line-height: 1;
 }
 
+<<<<<<< HEAD
 section {
   padding: 80px 0;
 }
@@ -213,3 +278,16 @@ footer {
 
 }
 
+=======
+
+section {
+  padding: 80px 0;
+
+}
+
+footer {
+  font-size: 18px:;
+  padding: 80px;
+  text-align: center;
+}
+>>>>>>> 260fbc0767a7160990870e25ff7ffd7d162fed60
