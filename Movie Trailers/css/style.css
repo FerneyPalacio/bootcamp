@@ -48,6 +48,7 @@ article {
 	display: inline-block;
 	padding: 2rem;
 	margin-right: 3rem;
+	margin-bottom: 3rem;
 	text-align: center;
 	border: 0.0625rem solid #ddd;
 	border-radius: .5rem;
@@ -55,8 +56,4 @@ article {
 
 article h2 {
 	font-weight: bold;
-}
-
-div {
-	margin-top: 2.3rem;
 }
