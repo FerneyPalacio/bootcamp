@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.menu {
+  background: #212121;
+}
+
+.navbar-default .navbar-nav>.select>a {
+  background: #060606;
+  color: white;
+}
+
+.state {
+  margin-top: 20px;
+}
+
+.num {
+  color: #9799a3;
+  padding-right: 0;
+
+}
+
+.num p {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.num-b {
+  font-size: 2.2em;
+}
+.gasto {
+  padding-left: 0;
+}
+
+.gasto p {
+  text-align: left;
+}
+
+.item {
+  font-size: 1.8em;
+  color: black;
+}
+
+.edit {
+  color: #9799a3;
+}
+
+.price {
+  text-align: right;
+}
