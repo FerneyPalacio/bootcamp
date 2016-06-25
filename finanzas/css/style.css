@@ -22,6 +22,10 @@ hr {
   margin-top: 20px;
 }
 
+.btnr {
+  float: right; 
+}
+
 .num {
   color: #9799a3;
   padding-right: 0;

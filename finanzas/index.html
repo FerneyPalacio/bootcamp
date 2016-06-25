@@ -8,11 +8,11 @@
 
 	<!-- Mobile Specific Metas
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- CSS
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
 
@@ -44,11 +44,13 @@
 
 	 <!-- CONTENT
 	 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
   <section class="container-fluid">
     <div class="row">
-      <!-- buscar -->
-      <div class="col-md-3">
+
+			<!-- COLUMN LEFT
+	 	 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+			<div class="col-md-3">
+				<!-- buscar -->
          <div class="input-group">
            <input type="text" class="form-control" placeholder="Buscar">
            <span class="input-group-btn">
@@ -57,7 +59,9 @@
              </button>
            </span>
          </div><!-- /input-group -->
+
 				 <br>
+				 <!--List-->
 				 <ul class="list-group">
            <li class="list-group-item">Ingresos</li>
            <li class="list-group-item">Gastos</li>
@@ -71,17 +75,19 @@
          </ul>
       </div><!-- /.Col-md-3 -->
 
-      <!-- nueva transacción-->
-      <div class="col-md-9">
+			<!-- COLUMN RIGHT
+	 	 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+			<div class="col-md-9">
+				<!--New Transation-->
         <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Nueva transacción</button>
-				<div class="btn-group">
-          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<div class="btn-group btnr">
+          <button type="button" class="btn btn-default dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Agosto 2014 <span class="caret"></span>
           </button>
           <ul class="dropdown-menu">
             <li><a href="#">Action</a></li>
           </ul>
-        </div>
+        </div><!--/.btn-group-->
 
 				<div class="row">
 					<hr class="state">
@@ -94,7 +100,7 @@
 		      <div class=" col-md-3 price">
 		        <p><span class="item">$900,000</span> <br> <span class="edit"><span class="glyphicon glyphicon-edit"></span> Editar <span class="glyphicon glyphicon-trash"></span> Eliminar</span></p>
 		      </div>
-				</div>
+				</div><!--/.row one C R-->
 
 				<div class="row">
 					<hr>
@@ -107,7 +113,7 @@
 		      <div class="col-md-3 price">
 		        <p><span class="item">$900,000</span> <br> <span class="edit"><span class="glyphicon glyphicon-edit"></span> Editar <span class="glyphicon glyphicon-trash"></span> Eliminar</span></p>
 		      </div>
-				</div>
+				</div><!--/.row two C R-->
 
 				<div class="row">
 					<hr>
@@ -120,7 +126,11 @@
 		      <div class=" col-md-3 price">
 		        <p><span class="item">$900,000</span> <br> <span class="edit"><span class="glyphicon glyphicon-edit"></span> Editar <span class="glyphicon glyphicon-trash"></span> Eliminar</span></p>
 		      </div>
-				</div>
+				</div><!--/.row three C R-->
+
+
+			</div><!-- /.Col-md-9 -->
+		</div><!-- /.row one-->
   </section>
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
