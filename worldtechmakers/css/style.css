@@ -1,0 +1,214 @@
+/*****************************************
+GENERAL
+***************************************/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Hind', sans-serif;
+  background: white;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background: white;
+  height: 7.4375rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav {
+  width: 66.6666%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*****************************************
+NAV
+***************************************/
+
+#idioma,
+#main-nav,
+#main-nav li,
+#idioma li,
+.logo {
+  display: inline-block;
+}
+
+/*****************************************
+IDIOMAS
+***************************************/
+
+#idioma {
+  text-align: left;
+  padding-right: 3.75rem;
+  padding-top: 2rem;
+}
+
+
+/*****************************************
+DROPDOWN MENU
+***************************************/
+
+
+.boton {
+  cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    background: white;
+    padding: 0 .2em;
+    padding-bottom: .6em;
+    border-radius: .5em;
+    text-align: center;
+}
+
+.dropdown-contenido {
+  display: none;
+}
+
+.dropdown-contenido a {
+  display: block;
+}
+
+.dropdown-contenido a:hover {
+  background: white;
+}
+
+.dropdown:hover .dropdown-contenido {
+  display: block;
+}
+
+.icon {
+  display: block;
+}
+
+/*****************************************
+MENU
+***************************************/
+
+.logo {
+  padding: 0 4rem;
+  vertical-align: top;
+}
+
+#main-nav {
+  font-size: 0.9em;
+  vertical-align: top;
+  margin-top: 2rem;
+}
+
+.li-ri {
+  padding-right: 1.5rem;
+  margin-right: 2rem;
+  border-right: 1px solid #494949;
+  line-height: 2em;
+}
+
+#main-nav a:hover {
+  text-decoration: underline;
+}
+
+
+/*****************************************
+FONDO
+***************************************/
+
+.fondo-bg {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/1.png);
+}
+
+.fondo {
+  color: white;
+  height: 30em;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 10%;
+}
+
+.copy {
+  text-transform: uppercase;
+  font-size: 4.5em;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.copy-sub {
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+/*****************************************
+CALL TO ACTION
+***************************************/
+
+.call-action {
+  text-align: center;
+  margin-top: -1em;
+  margin-bottom: 5em;
+}
+
+.boton-action {
+  padding: 1em;
+  border-radius: 5px;
+  background: white;
+  font-size: 1.2em;
+  color: #1F1F1F;
+  margin: 1em;
+  width: 4em;
+  transition: all 0.2s;
+  box-shadow: 0 0 5px #727176;
+}
+
+.boton-action-blue {
+  text-transform: uppercase;
+  color: white;
+  background: #64B0D2;
+}
+
+/*****************************************
+CONTENT
+***************************************/
+.content {
+  text-align: center;
+}
+
+.content-title {
+  text-transform: uppercase;
+  color: #001C2A;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.content-block {
+  display: inline-block;
+  margin: 1.5em;
+  font-size: 1.5em;
+  padding: 1em 0.5em;
+  width: 7em;
+  height: 7em;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  box-shadow: 0 0 5px #727176;
+}
+
+.content-block-blue {
+  background-color: #001C2A;
+  background-image: url(../img/46.png);
+  background-repeat: no-repeat;
+  background-position: 95% 95%;
+  color: white;
+}
